@@ -1,0 +1,27 @@
+.container {
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: rgb(179, 179, 179);
+}
+
+.button {
+    background-color: orange;
+    margin-right: 25px;
+    border-radius: 45px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    font-size: 18px;
+}

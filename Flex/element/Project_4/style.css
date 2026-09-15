@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 15px;
+    border: 3px solid red;
+    display: flex;
+    gap: 30px;
+}
+
+.flex-element {
+    width: 25%;
+    padding: 15px;
+    background: linear-gradient(90deg, rgb(144, 144, 252) 0% 30%, rgb(119, 0, 255) 60% 100%);
+    color: white;
+    text-align: center;
+}
+
+.element-1 {
+    align-self: stretch;
+}
+
+.element-2 {
+    align-self: center;
+}
+
+.element-3 {
+    align-self: flex-start;
+}
+
+.element-4 {
+    align-self: flex-end;
+}

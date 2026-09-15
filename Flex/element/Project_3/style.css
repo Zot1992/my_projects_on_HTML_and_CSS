@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 15px;
+    margin: 25px auto;
+}
+
+.flex-container {
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.element {
+    padding: 25px 0px;
+    background: linear-gradient(90deg, rgb(144, 144, 252) 0% 30%, rgb(119, 0, 255) 60% 100%);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.element-1 {
+    flex: 0 0 250px;
+}
+
+.element-2 {
+    flex: 1 0 300px;
+}
+
+.element-3 {}
+
+.element-4 {
+    flex: 0 1 200px;
+}
+
+.input {
+    width: 100%;
+    margin-top: 25px;
+}

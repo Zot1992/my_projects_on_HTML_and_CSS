@@ -1,0 +1,118 @@
+.photo {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_me_description p {
+    margin-top: 15px;
+}
+
+
+.section-2 {
+    font-size: 12px;
+}
+
+.section-2__heading {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.portfolio_img {
+    margin-bottom: 15px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio_heading {
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+}
+
+.skill {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 45px;
+    border: 1px solid #f1f1f1;
+}
+
+.skill a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 25px;
+}
+
+.slill__img {
+    background: #f1f1f1;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill_label_img {
+    width: 50%;
+}
+
+.skill_info {
+    flex-grow: 1;
+    margin-top: 25px;
+}
+
+.slill__headen {
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+}
+
+.slill__text {
+    color: rgba(29, 29, 29, 0.5);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.skill_progress {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill_progress_icon {
+    margin-right: 10px;
+}
+
+.skill_progress_line {
+    background-color: #f1f1f1;
+    height: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.skill_progress_line_done {
+    width: 70%;
+    background-color: #ff8410;
+    border-radius: 5px 0 0 5px;
+    height: 100%;
+}
+
+.skill_progress_procent {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+}

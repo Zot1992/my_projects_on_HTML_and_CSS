@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+.header__container {
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu__item{
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.button{
+    background-color: #ff8b61;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 45px;
+    padding: 25px 45px;
+    text-decoration: none;
+    color: black;
+}

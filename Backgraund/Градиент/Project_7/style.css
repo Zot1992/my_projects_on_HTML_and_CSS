@@ -1,0 +1,8 @@
+.block {
+    width: 400px;
+    height: 400px; 
+    border-radius: 100%;
+    background: radial-gradient(ellipse at 35% 35%,  #e8d2ff, #9e50eb, #400782, #120221);
+    margin-left: auto;
+    margin-right: auto;
+}

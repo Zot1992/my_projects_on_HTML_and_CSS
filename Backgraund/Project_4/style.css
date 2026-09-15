@@ -1,0 +1,15 @@
+.block {
+    max-width: 1200px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.7)), 
+    url(./img/bg.jpg) no-repeat center / cover ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 150px;
+    color: white;
+}

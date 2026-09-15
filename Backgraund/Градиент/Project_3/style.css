@@ -1,0 +1,7 @@
+.block {
+    max-width: 1200px;
+    height: 350px;
+    background: linear-gradient(90deg, #00ffd8 0% 33%, #8700ff 33% 66%, #e25904 66% 100%);
+    margin-left: auto;
+    margin-right: auto;
+}

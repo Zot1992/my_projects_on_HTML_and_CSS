@@ -1,0 +1,56 @@
+.banner .row {
+    align-items: center;
+}
+
+.title {
+    font-size: 62px;
+    text-transform: uppercase;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.description {}
+
+.button {
+    display: inline-block;
+    background-color: #5c878e;
+    color: white;
+    border-radius: 40px 0px 40px 0px;
+    padding: 15px 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.servises h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.service {
+    padding: 25px;
+    text-align: left;
+    border: 1px solid rgba(129, 129, 129, 0.5);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service img {
+    width: 55%;
+}
+
+.service p {
+    flex-grow: 1;
+}
+
+.service h3 {
+    font-size: 27px;
+    margin-top: 30px;
+}

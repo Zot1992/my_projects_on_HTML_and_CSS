@@ -1,0 +1,7 @@
+.block {
+    max-width: 1200px;
+    height: 300px;
+    background: rgb(182, 181, 185) url(./img/bg.jpg) no-repeat 90% center / 20% auto;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    padding: 25px;
+    box-shadow: 0px 9px 40px rgba(31, 31, 31, 0.6);
+    border-radius: 16px;
+}
+
+.img {
+    width: 350px;
+    height: 200px;
+}
+
+.button {
+    border: none;
+    padding: 15px;
+    border-radius: 0 16px 0 16px;
+    cursor: pointer;
+    background-color: rgb(61, 146, 243);
+    color: white;
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 25px auto;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}.block {
+    width: 100%;
+    padding: 25px;
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
